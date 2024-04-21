@@ -1,0 +1,42 @@
+a {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+}
+
+body {
+    background-color: #8FC6FA;
+}
+
+.flag {
+    margin: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(13, 1fr);
+    width: min(800px);
+    height: min(400px);
+}
+
+.red {
+    background-color: #C21818;
+}
+
+.white {
+    background-color: white;
+}
+
+.stars {
+   position: absolute;
+   grid-row-start: 1;
+   grid-row-end: 8;
+   width: 350px;
+   height: 215px;
+}

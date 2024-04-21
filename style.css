@@ -1,0 +1,38 @@
+body {
+    background-color: #C9A9A6;
+}
+
+a {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+}
+
+.container {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+    width: min(800px);
+    height: min(800px);
+    background-color: white;
+    border: 10px solid #9F2B68;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+} 
+
+
